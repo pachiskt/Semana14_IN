@@ -1,0 +1,448 @@
+{
+  "schema_version": "1.0",
+  "exported_at": "2026-11-17T23:28:22.078Z",
+  "scenario": {
+    "id": "aleatorio",
+    "name": "Distribución aleatoria"
+  },
+  "shelf": {
+    "rows": 4,
+    "columns": 8,
+    "total_slots": 32
+  },
+  "assumptions": [
+    "Cada espacio representa una posición de exhibición.",
+    "Un espacio ocupado se contabiliza como una unidad visible para el cálculo referencial.",
+    "Los precios son ilustrativos.",
+    "La exhibición no equivale al stock total de almacén."
+  ],
+  "products": [
+    {
+      "id": "water",
+      "sku": "BEB-001",
+      "name": "Agua mineral",
+      "category": "Bebidas",
+      "unit_price_pen": 2.5
+    },
+    {
+      "id": "milk",
+      "sku": "LAC-001",
+      "name": "Leche entera",
+      "category": "Lácteos",
+      "unit_price_pen": 4.8
+    },
+    {
+      "id": "soda",
+      "sku": "BEB-002",
+      "name": "Gaseosa",
+      "category": "Bebidas",
+      "unit_price_pen": 3.5
+    },
+    {
+      "id": "juice",
+      "sku": "BEB-003",
+      "name": "Jugo de naranja",
+      "category": "Bebidas",
+      "unit_price_pen": 4.2
+    },
+    {
+      "id": "cookies",
+      "sku": "SNK-001",
+      "name": "Galletas",
+      "category": "Snacks",
+      "unit_price_pen": 3
+    },
+    {
+      "id": "cereal",
+      "sku": "DES-001",
+      "name": "Cereal",
+      "category": "Desayunos",
+      "unit_price_pen": 9.9
+    },
+    {
+      "id": "canned",
+      "sku": "ABR-001",
+      "name": "Conserva",
+      "category": "Abarrotes",
+      "unit_price_pen": 5.6
+    },
+    {
+      "id": "detergent",
+      "sku": "LIM-001",
+      "name": "Detergente",
+      "category": "Limpieza",
+      "unit_price_pen": 8.5
+    }
+  ],
+  "slots": [
+    {
+      "slot": 1,
+      "row": 1,
+      "column": 1,
+      "occupied": true,
+      "product_id": "soda",
+      "sku": "BEB-002",
+      "product_name": "Gaseosa",
+      "category": "Bebidas",
+      "unit_price_pen": 3.5
+    },
+    {
+      "slot": 2,
+      "row": 1,
+      "column": 2,
+      "occupied": true,
+      "product_id": "cereal",
+      "sku": "DES-001",
+      "product_name": "Cereal",
+      "category": "Desayunos",
+      "unit_price_pen": 9.9
+    },
+    {
+      "slot": 3,
+      "row": 1,
+      "column": 3,
+      "occupied": true,
+      "product_id": "water",
+      "sku": "BEB-001",
+      "product_name": "Agua mineral",
+      "category": "Bebidas",
+      "unit_price_pen": 2.5
+    },
+    {
+      "slot": 4,
+      "row": 1,
+      "column": 4,
+      "occupied": true,
+      "product_id": "cereal",
+      "sku": "DES-001",
+      "product_name": "Cereal",
+      "category": "Desayunos",
+      "unit_price_pen": 9.9
+    },
+    {
+      "slot": 5,
+      "row": 1,
+      "column": 5,
+      "occupied": true,
+      "product_id": "milk",
+      "sku": "LAC-001",
+      "product_name": "Leche entera",
+      "category": "Lácteos",
+      "unit_price_pen": 4.8
+    },
+    {
+      "slot": 6,
+      "row": 1,
+      "column": 6,
+      "occupied": true,
+      "product_id": "canned",
+      "sku": "ABR-001",
+      "product_name": "Conserva",
+      "category": "Abarrotes",
+      "unit_price_pen": 5.6
+    },
+    {
+      "slot": 7,
+      "row": 1,
+      "column": 7,
+      "occupied": true,
+      "product_id": "cookies",
+      "sku": "SNK-001",
+      "product_name": "Galletas",
+      "category": "Snacks",
+      "unit_price_pen": 3
+    },
+    {
+      "slot": 8,
+      "row": 1,
+      "column": 8,
+      "occupied": true,
+      "product_id": "soda",
+      "sku": "BEB-002",
+      "product_name": "Gaseosa",
+      "category": "Bebidas",
+      "unit_price_pen": 3.5
+    },
+    {
+      "slot": 9,
+      "row": 2,
+      "column": 1,
+      "occupied": false,
+      "product_id": null,
+      "sku": null,
+      "product_name": null,
+      "category": null,
+      "unit_price_pen": null
+    },
+    {
+      "slot": 10,
+      "row": 2,
+      "column": 2,
+      "occupied": true,
+      "product_id": "juice",
+      "sku": "BEB-003",
+      "product_name": "Jugo de naranja",
+      "category": "Bebidas",
+      "unit_price_pen": 4.2
+    },
+    {
+      "slot": 11,
+      "row": 2,
+      "column": 3,
+      "occupied": true,
+      "product_id": "cookies",
+      "sku": "SNK-001",
+      "product_name": "Galletas",
+      "category": "Snacks",
+      "unit_price_pen": 3
+    },
+    {
+      "slot": 12,
+      "row": 2,
+      "column": 4,
+      "occupied": true,
+      "product_id": "cereal",
+      "sku": "DES-001",
+      "product_name": "Cereal",
+      "category": "Desayunos",
+      "unit_price_pen": 9.9
+    },
+    {
+      "slot": 13,
+      "row": 2,
+      "column": 5,
+      "occupied": true,
+      "product_id": "milk",
+      "sku": "LAC-001",
+      "product_name": "Leche entera",
+      "category": "Lácteos",
+      "unit_price_pen": 4.8
+    },
+    {
+      "slot": 14,
+      "row": 2,
+      "column": 6,
+      "occupied": false,
+      "product_id": null,
+      "sku": null,
+      "product_name": null,
+      "category": null,
+      "unit_price_pen": null
+    },
+    {
+      "slot": 15,
+      "row": 2,
+      "column": 7,
+      "occupied": true,
+      "product_id": "canned",
+      "sku": "ABR-001",
+      "product_name": "Conserva",
+      "category": "Abarrotes",
+      "unit_price_pen": 5.6
+    },
+    {
+      "slot": 16,
+      "row": 2,
+      "column": 8,
+      "occupied": true,
+      "product_id": "milk",
+      "sku": "LAC-001",
+      "product_name": "Leche entera",
+      "category": "Lácteos",
+      "unit_price_pen": 4.8
+    },
+    {
+      "slot": 17,
+      "row": 3,
+      "column": 1,
+      "occupied": true,
+      "product_id": "juice",
+      "sku": "BEB-003",
+      "product_name": "Jugo de naranja",
+      "category": "Bebidas",
+      "unit_price_pen": 4.2
+    },
+    {
+      "slot": 18,
+      "row": 3,
+      "column": 2,
+      "occupied": false,
+      "product_id": null,
+      "sku": null,
+      "product_name": null,
+      "category": null,
+      "unit_price_pen": null
+    },
+    {
+      "slot": 19,
+      "row": 3,
+      "column": 3,
+      "occupied": true,
+      "product_id": "water",
+      "sku": "BEB-001",
+      "product_name": "Agua mineral",
+      "category": "Bebidas",
+      "unit_price_pen": 2.5
+    },
+    {
+      "slot": 20,
+      "row": 3,
+      "column": 4,
+      "occupied": false,
+      "product_id": null,
+      "sku": null,
+      "product_name": null,
+      "category": null,
+      "unit_price_pen": null
+    },
+    {
+      "slot": 21,
+      "row": 3,
+      "column": 5,
+      "occupied": true,
+      "product_id": "cookies",
+      "sku": "SNK-001",
+      "product_name": "Galletas",
+      "category": "Snacks",
+      "unit_price_pen": 3
+    },
+    {
+      "slot": 22,
+      "row": 3,
+      "column": 6,
+      "occupied": false,
+      "product_id": null,
+      "sku": null,
+      "product_name": null,
+      "category": null,
+      "unit_price_pen": null
+    },
+    {
+      "slot": 23,
+      "row": 3,
+      "column": 7,
+      "occupied": true,
+      "product_id": "canned",
+      "sku": "ABR-001",
+      "product_name": "Conserva",
+      "category": "Abarrotes",
+      "unit_price_pen": 5.6
+    },
+    {
+      "slot": 24,
+      "row": 3,
+      "column": 8,
+      "occupied": true,
+      "product_id": "milk",
+      "sku": "LAC-001",
+      "product_name": "Leche entera",
+      "category": "Lácteos",
+      "unit_price_pen": 4.8
+    },
+    {
+      "slot": 25,
+      "row": 4,
+      "column": 1,
+      "occupied": true,
+      "product_id": "cookies",
+      "sku": "SNK-001",
+      "product_name": "Galletas",
+      "category": "Snacks",
+      "unit_price_pen": 3
+    },
+    {
+      "slot": 26,
+      "row": 4,
+      "column": 2,
+      "occupied": true,
+      "product_id": "juice",
+      "sku": "BEB-003",
+      "product_name": "Jugo de naranja",
+      "category": "Bebidas",
+      "unit_price_pen": 4.2
+    },
+    {
+      "slot": 27,
+      "row": 4,
+      "column": 3,
+      "occupied": false,
+      "product_id": null,
+      "sku": null,
+      "product_name": null,
+      "category": null,
+      "unit_price_pen": null
+    },
+    {
+      "slot": 28,
+      "row": 4,
+      "column": 4,
+      "occupied": true,
+      "product_id": "water",
+      "sku": "BEB-001",
+      "product_name": "Agua mineral",
+      "category": "Bebidas",
+      "unit_price_pen": 2.5
+    },
+    {
+      "slot": 29,
+      "row": 4,
+      "column": 5,
+      "occupied": true,
+      "product_id": "milk",
+      "sku": "LAC-001",
+      "product_name": "Leche entera",
+      "category": "Lácteos",
+      "unit_price_pen": 4.8
+    },
+    {
+      "slot": 30,
+      "row": 4,
+      "column": 6,
+      "occupied": true,
+      "product_id": "canned",
+      "sku": "ABR-001",
+      "product_name": "Conserva",
+      "category": "Abarrotes",
+      "unit_price_pen": 5.6
+    },
+    {
+      "slot": 31,
+      "row": 4,
+      "column": 7,
+      "occupied": true,
+      "product_id": "water",
+      "sku": "BEB-001",
+      "product_name": "Agua mineral",
+      "category": "Bebidas",
+      "unit_price_pen": 2.5
+    },
+    {
+      "slot": 32,
+      "row": 4,
+      "column": 8,
+      "occupied": false,
+      "product_id": null,
+      "sku": null,
+      "product_name": null,
+      "category": null,
+      "unit_price_pen": null
+    }
+  ],
+  "summary": {
+    "occupied_slots": 25,
+    "empty_slots": 7,
+    "distinct_products": 7,
+    "occupancy_rate": 0.7813,
+    "estimated_display_value_pen": 117.7,
+    "facings_by_product": {
+      "water": 4,
+      "milk": 5,
+      "soda": 2,
+      "juice": 3,
+      "cookies": 4,
+      "cereal": 3,
+      "canned": 4,
+      "detergent": 0
+    }
+  }
+}
